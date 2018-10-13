@@ -10,7 +10,7 @@ Do the following to get Cassandra working on your machine:
 * Then you can create you table and insert data into it; running this [script](https://github.com/idaho-guy/cassandra-quick-example/blob/master/person-create.cql) will create the keyspace, table, and load the data
 * To run the file included in this project (in includes creation of the keyspace, table and table population), run the following command: "cqlsh -f person-create.cql"
 
-The java example has and example of
+The java program has examples of
 * Usage of a mapper for querying [individual records and collections](https://github.com/idaho-guy/cassandra-quick-example/blob/master/src/main/java/com/sage/app/Cassandra.java#L29) using the [Person](https://github.com/idaho-guy/cassandra-quick-example/blob/master/src/main/java/com/sage/model/Person.java#L10) model The annotations on Person are
   * @Table
   * @Column (required if the column name in the db is different then the name of the field on the Model)
